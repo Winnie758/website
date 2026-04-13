@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mwethya Mutisya portfolio - Data Analyst, Machine Learning Practitioner, Web Developer & Designer, and Mathematical Modeller."
+    />
+    <title>Mwethya Mutisya | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="three-bg" aria-hidden="true"></div>
+    <div class="gradient-orb orb-1" aria-hidden="true"></div>
+    <div class="gradient-orb orb-2" aria-hidden="true"></div>
+
+    <header class="site-header" id="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a href="#home" class="brand brand-initials" aria-label="Mwethya Mutisya">
+          <span class="brand-badge">MW</span>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#selected-work">Selected Work</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="glass-orb orb-a"></div>
+          <div class="glass-orb orb-b"></div>
+          <div class="glass-orb orb-c"></div>
+        </div>
+        <div class="container hero-center">
+          <div class="hero-content hero-entrance">
+            <h1 class="hero-title delay-1"><span class="hero-name">Mwethya Mutisya</span></h1>
+            <p class="hero-subline delay-2">Data Science • Machine Learning • Web Developer • Mathematical models </p>
+            <div class="hero-roles delay-2" aria-label="Animated titles">
+              <span id="hero-role"></span><span class="cursor" aria-hidden="true">|</span>
+            </div>
+            <p class="hero-desc delay-3">
+              Transforming data into actionable insights through mathematics, analytics, and machine learning.
+Building intelligent systems and modern, user-centered web experiences that solve real-world problems.
+            </p>
+            <div class="cta-row hero-cta delay-4">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a class="btn primary cta-sync" href="#contact">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="tag">About</p>
+            <h2>Data, Intelligence, and Design</h2>
+          </div>
+          <div class="about-grid reveal">
+            <article class="about-image-card">
+              <div class="about-image-placeholder" aria-label="Upload your professional photo">
+                <img class="about-photo" src="/assets/profile.png" alt="Mwethya Mutisya portrait" />
+              </div>
+            </article>
+            <article class="glass-card about-content-card">
+              <p>
+                Professional in data analytics, machine learning, mathematical modeling, and modern web development. I transform complex data into clear, actionable insights and practical solutions. Focused on building reliable, high-performance systems that are intuitive and user-centered. I combine analytical precision with modern technologies to solve real-world problems. Committed to delivering impactful, data-driven results.
+              </p>
+              <p>
+                I transform complex datasets and abstract models into practical, human-centered solutions that are
+                visually clear, technically robust, and performance-oriented.
+              </p>
+              <p>
+                My focus is building impactful systems where analytical thinking, creative design, and engineering quality
+                work together to solve real-world challenges.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="academics" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="tag">Academics</p>
+            <h2>Academic Background</h2>
+          </div>
+          <div class="acad-timeline reveal">
+            <div class="acad-node">
+              <div class="acad-dot"></div>
+              <div class="acad-card">
+                <button class="acad-year-btn" type="button" aria-expanded="true">
+                  <span>Year 1</span><i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="acad-year-content" style="max-height: 600px;">
+                  <ul class="acad-units-list" id="acad-year-1"></ul>
+                </div>
+              </div>
+            </div>
+            <div class="acad-node">
+              <div class="acad-dot"></div>
+              <div class="acad-card">
+                <button class="acad-year-btn" type="button" aria-expanded="false">
+                  <span>Year 2</span><i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="acad-year-content" style="max-height: 0px;">
+                  <ul class="acad-units-list" id="acad-year-2"></ul>
+                </div>
+              </div>
+            </div>
+            <div class="acad-node">
+              <div class="acad-dot"></div>
+              <div class="acad-card">
+                <button class="acad-year-btn" type="button" aria-expanded="false">
+                  <span>Year 3</span><i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="acad-year-content" style="max-height: 0px;">
+                  <ul class="acad-units-list" id="acad-year-3"></ul>
+                </div>
+              </div>
+            </div>
+            <div class="acad-node">
+              <div class="acad-dot"></div>
+              <div class="acad-card">
+                <button class="acad-year-btn" type="button" aria-expanded="false">
+                  <span>Year 4</span><i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="acad-year-content" style="max-height: 0px;">
+                  <ul class="acad-units-list" id="acad-year-4"></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="selected-work" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="tag">Selected Work</p>
+            <h2>Selected Work Across Domains</h2>
+          </div>
+          <div class="experience-timeline">
+            <article class="exp-card exp-left reveal">
+              <h3>End-to-End Machine Learning Systems and Deployment</h3>
+              <p class="exp-org">Building Scalable Intelligent Solutions</p>
+              <p>
+                Designing comprehensive machine-learning pipelines from data ingestion to deployment, integrating data
+                engineering and backend systems to deliver robust, production-ready predictive models with real-world impact.
+              </p>
+            </article>
+            <article class="exp-card exp-right reveal">
+              <h3>Advanced Data Analytics and Insight Engineering</h3>
+              <p class="exp-org">Transforming Data into Strategic Insights</p>
+              <p>
+                Conducting in-depth data exploration, statistical analysis, and visualization to uncover patterns and trends,
+                supported by interactive dashboards that drive informed decision-making and actionable intelligence.
+              </p>
+            </article>
+            <article class="exp-card exp-left reveal">
+              <h3>Mathematical Modeling Optimization and Simulation</h3>
+              <p class="exp-org">Applying Analytical Methods to Real-World Systems</p>
+              <p>
+                Creating mathematical representations and utilizing optimization and simulation techniques to analyze system
+                behavior, improve performance, and develop data-driven solutions through rigorous reasoning and programming.
+              </p>
+            </article>
+            <article class="exp-card exp-right reveal">
+              <h3>Modern Web Development and Intelligent UI Systems</h3>
+              <p class="exp-org">Creating Responsive and Smart User Experiences</p>
+              <p>
+                Developing scalable, accessible web applications with intuitive UI/UX, integrating intelligent features and
+                machine-learning components to provide seamless, engaging, and data-informed user interactions.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="tag">Projects</p>
+            <h2>Projects & Innovations</h2>
+          </div>
+          <div class="projects-grid reveal" id="projects-grid-core"></div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="tag">Skills</p>
+            <h2>Technical Skills</h2>
+          </div>
+          <div class="skills-cats reveal">
+            <article class="skill-card">
+              <h3><i class="fa-solid fa-magnifying-glass-chart"></i> Research & Analytics</h3>
+              <div class="skill-item"><span>Research & Analytics <strong>90%</strong></span><div class="bar"><div data-width="90"></div></div></div>
+              <div class="skill-item"><span>Quantitative & Qualitative Analysis <strong>88%</strong></span><div class="bar"><div data-width="88"></div></div></div>
+              <div class="skill-item"><span>Statistical & Data Analysis Mastery <strong>91%</strong></span><div class="bar"><div data-width="91"></div></div></div>
+              <div class="skill-item"><span>Design & Methodology <strong>84%</strong></span><div class="bar"><div data-width="84"></div></div></div>
+              <div class="skill-item"><span>Meta-Analysis <strong>79%</strong></span><div class="bar"><div data-width="79"></div></div></div>
+            </article>
+            <article class="skill-card">
+              <h3><i class="fa-solid fa-laptop-code"></i> Technical & Digital Acumen</h3>
+              <div class="skill-item"><span>Web Development & Design <strong>89%</strong></span><div class="bar"><div data-width="89"></div></div></div>
+              <div class="skill-item"><span>Cloud Architecture & Deployment <strong>72%</strong></span><div class="bar"><div data-width="72"></div></div></div>
+              <div class="skill-item"><span>Data Management & Querying <strong>86%</strong></span><div class="bar"><div data-width="86"></div></div></div>
+              <div class="skill-item"><span>Machine Learning & AI <strong>88%</strong></span><div class="bar"><div data-width="88"></div></div></div>
+            </article>
+            <article class="skill-card">
+              <h3><i class="fa-solid fa-graduation-cap"></i> Academic & Research Leadership</h3>
+              <div class="skill-item"><span>Academic & Research Leadership <strong>87%</strong></span><div class="bar"><div data-width="87"></div></div></div>
+              <div class="skill-item"><span>Scholarly Writing & Publication <strong>82%</strong></span><div class="bar"><div data-width="82"></div></div></div>
+              <div class="skill-item"><span>Grant Acquisition & Project Management <strong>75%</strong></span><div class="bar"><div data-width="75"></div></div></div>
+              <div class="skill-item"><span>Ethical Research Practices <strong>90%</strong></span><div class="bar"><div data-width="90"></div></div></div>
+              <div class="skill-item"><span>Interdisciplinary Collaboration <strong>92%</strong></span><div class="bar"><div data-width="92"></div></div></div>
+            </article>
+            <article class="skill-card">
+              <h3><i class="fa-solid fa-screwdriver-wrench"></i> Software & Tools</h3>
+              <div class="skill-item"><span>Python <strong>92%</strong></span><div class="bar"><div data-width="92"></div></div></div>
+              <div class="skill-item"><span>JavaScript <strong>86%</strong></span><div class="bar"><div data-width="86"></div></div></div>
+              <div class="skill-item"><span>HTML/CSS <strong>91%</strong></span><div class="bar"><div data-width="91"></div></div></div>
+              <div class="skill-item"><span>MySQL/PostgreSQL <strong>84%</strong></span><div class="bar"><div data-width="84"></div></div></div>
+              <div class="skill-item"><span>Jupyter/Colab <strong>90%</strong></span><div class="bar"><div data-width="90"></div></div></div>
+              <div class="skill-item"><span>Power BI/Tableau/SPSS <strong>82%</strong></span><div class="bar"><div data-width="82"></div></div></div>
+              <div class="skill-item"><span>Git/GitHub/VS Code/MS Office <strong>88%</strong></span><div class="bar"><div data-width="88"></div></div></div>
+            </article>
+          </div>
+          <article class="skill-card competencies reveal">
+            <h3><i class="fa-solid fa-people-group"></i> Core Competencies & Additional Strengths</h3>
+            <div class="competency-sections">
+              <div>
+                <h4 class="competency-subheading">Core Competencies</h4>
+                <div class="competency-flip-grid">
+                  <button type="button" class="competency-flip-card" aria-pressed="false">
+                    <span class="flip-inner">
+                      <span class="flip-face flip-front">Problem-Solving</span>
+                      <span class="flip-face flip-back">Advanced level (92%) - Breaks complex challenges into practical, data-informed steps.</span>
+                    </span>
+                  </button>
+                  <button type="button" class="competency-flip-card" aria-pressed="false">
+                    <span class="flip-inner">
+                      <span class="flip-face flip-front">Critical Thinking</span>
+                      <span class="flip-face flip-back">Strong proficiency (90%) - Evaluates assumptions and selects robust analytical strategies.</span>
+                    </span>
+                  </button>
+                  <button type="button" class="competency-flip-card" aria-pressed="false">
+                    <span class="flip-inner">
+                      <span class="flip-face flip-front">Communication</span>
+                      <span class="flip-face flip-back">Professional level (88%) - Translates technical insights into clear, actionable narratives.</span>
+                    </span>
+                  </button>
+                  <button type="button" class="competency-flip-card" aria-pressed="false">
+                    <span class="flip-inner">
+                      <span class="flip-face flip-front">Teamwork</span>
+                      <span class="flip-face flip-back">Collaborative strength (89%) - Works effectively in interdisciplinary, goal-driven teams.</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div>
+                <h4 class="competency-subheading">Additional Strengths</h4>
+                <div class="competency-flip-grid">
+                  <button type="button" class="competency-flip-card" aria-pressed="false">
+                    <span class="flip-inner">
+                      <span class="flip-face flip-front">Leadership</span>
+                      <span class="flip-face flip-back">Growing leadership (84%) - Coordinates tasks, supports peers, and drives delivery quality.</span>
+                    </span>
+                  </button>
+                  <button type="button" class="competency-flip-card" aria-pressed="false">
+                    <span class="flip-inner">
+                      <span class="flip-face flip-front">Adaptability</span>
+                      <span class="flip-face flip-back">High adaptability (91%) - Learns new tools quickly and adjusts to changing requirements.</span>
+                    </span>
+                  </button>
+                  <button type="button" class="competency-flip-card" aria-pressed="false">
+                    <span class="flip-inner">
+                      <span class="flip-face flip-front">Innovation</span>
+                      <span class="flip-face flip-back">Creative strength (86%) - Combines research, modelling, and UX thinking for modern solutions.</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="certifications" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="tag">Certifications</p>
+            <h2>Certifications</h2>
+          </div>
+          <div class="cert-grid reveal">
+            <article class="cert-card"><h3>Google Data Analytics Professional Certificate</h3><p>Google • 2025</p></article>
+            <article class="cert-card"><h3>IBM Data Science Professional Certificate</h3><p>IBM • 2025</p></article>
+            <article class="cert-card"><h3>Machine Learning Specialization</h3><p>DeepLearning.AI • 2025</p></article>
+            <article class="cert-card"><h3>Microsoft Power BI Data Analyst Associate</h3><p>Microsoft • 2025</p></article>
+            <article class="cert-card"><h3>Responsive Web Design Certification</h3><p>freeCodeCamp • 2024</p></article>
+            <article class="cert-card"><h3>Advanced SQL for Data Analytics</h3><p>Coursera • 2024</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="tag">Experience</p>
+            <h2>Experience Timeline</h2>
+          </div>
+          <div class="experience-timeline">
+            <article class="exp-card exp-left reveal">
+              <h3>Industrial Attachee — Data and Records Analysis</h3>
+              <p class="exp-org">National Social Security Fund (NSSF), Nyeri Branch</p>
+              <p class="exp-meta"><span>Nyeri, Kenya</span><span>Sep 2024 – Dec 2024</span></p>
+              <p>
+                Assisted in processing payments while ensuring contributor financial records were accurate and up to date.
+                Performed data verification and reconciliation to maintain consistency across records, and supported
+                administrative operations through efficient Excel-based record management systems.
+              </p>
+            </article>
+            <article class="exp-card exp-right reveal">
+              <h3>Hackathon Participant — AI Python Solution Development</h3>
+              <p class="exp-org">Innovation Hackathon Event</p>
+              <p class="exp-meta"><span>Hackathon Track</span><span>2025</span></p>
+              <p>
+                Collaborated under strict time constraints to design and prototype an AI-driven Python solution.
+                Contributed to core functionality and intelligent feature integration, then delivered a working demo
+                highlighting rapid development, teamwork, and problem-solving capability.
+              </p>
+            </article>
+            <article class="exp-card exp-left reveal">
+              <h3>Academic Contributor — Group Data Projects</h3>
+              <p class="exp-org">University Academic Projects</p>
+              <p class="exp-meta"><span>Academic Collaboration</span><span>2023 – 2025</span></p>
+              <p>
+                Worked in multidisciplinary teams to design structured data-analysis workflows and build predictive models
+                aligned with project objectives. Presented insights and practical recommendations based on clear, data-driven findings.
+              </p>
+            </article>
+            <article class="exp-card exp-right reveal">
+              <h3>Personal Developer — Portfolio Engineering & Product Design</h3>
+              <p class="exp-org">Independent Projects</p>
+              <p class="exp-meta"><span>Remote / Personal Lab</span><span>2023 – Present</span></p>
+              <p>
+                Designed and developed portfolio applications that integrate machine-learning logic with modern UI/UX.
+                Applied data-storytelling techniques through interactive interfaces and continuously improved solutions
+                by adopting new technologies and user-centered design principles.
+              </p>
+            </article>
+          </div>
+          <a
+            class="btn primary center-btn reveal"
+            href="https://drive.google.com/file/d/1IBODKms1LK5iPueLiKrpY0qC3hb-S1Pl/view?usp=sharing"
+            target="_blank"
+            rel="noopener"
+            >View Resume</a
+          >
+        </div>
+      </section>
+
+      <section id="volunteer" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="tag">Volunteerism</p>
+            <h2>Volunteer Experience</h2>
+          </div>
+          <div class="experience-timeline">
+            <article class="exp-card exp-left reveal">
+              <h3>Peer Tutor — Mathematics & Programming</h3>
+              <p class="exp-org">Dedan Kimathi University of Technology</p>
+              <p class="exp-meta"><span>Nyeri, Kenya</span><span>Sep 2023 – Aug 2025</span></p>
+              <p>
+                Tutored undergraduate students in calculus, linear algebra, and introductory programming concepts.
+                Assisted learners in Python programming and foundational data analysis techniques, and supported academic
+                success through structured problem-solving sessions and guided revisions.
+              </p>
+            </article>
+            <article class="exp-card exp-right reveal">
+              <h3>Data & Research Volunteer — Data Analytics</h3>
+              <p class="exp-org">NGAO Labs</p>
+              <p class="exp-meta"><span>Community Analytics</span><span>Jan 2024 – Present</span></p>
+              <p>
+                Supported data cleaning, preprocessing, and exploratory analysis to improve decision-making.
+                Developed simple reports and visual summaries to communicate insights to stakeholders, and contributed
+                to improving program effectiveness through data-driven recommendations.
+              </p>
+            </article>
+            <article class="exp-card exp-left reveal">
+              <h3>Machine Learning Volunteer — Model Development Support</h3>
+              <p class="exp-org">DSAIL </p>
+              <p class="exp-meta"><span>Collaborative Projects</span><span>2024 – Present</span></p>
+              <p>
+                Assisted in building and testing machine learning models for predictive and classification tasks.
+                Performed feature selection and basic model evaluation using metrics such as RMSE and accuracy, and
+                collaborated using version control tools like Git in shared ML workflows.
+              </p>
+            </article>
+            <article class="exp-card exp-right reveal">
+              <h3>UI/UX & Web Development Volunteer — Frontend Support</h3>
+              <p class="exp-org">Student Tech Group</p>
+              <p class="exp-meta"><span>Frontend & UX</span><span>Aug 2022 – Apr 2023</span></p>
+              <p>
+                Designed clean and user-friendly interfaces aligned with modern UI/UX principles.
+                Implemented responsive web pages using HTML, CSS, and JavaScript, and improved usability and accessibility
+                for student-led digital platforms.
+              </p>
+            </article>
+            <article class="exp-card exp-left reveal">
+              <h3>Peer Mentor — Academic & Technical Support</h3>
+              <p class="exp-org">Academic Support Program</p>
+              <p class="exp-meta"><span>Mentorship & Support</span><span>May 2023 – Dec 2023</span></p>
+              <p>
+                Guided students in core mathematics and introductory programming through mentoring sessions.
+                Provided structured learning support, simplified complex technical concepts, and encouraged consistency
+                and confidence in problem-solving and coding practices.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="spatial-profile" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="tag">Open Source</p>
+            <h2>GitHub Repositories</h2>
+          </div>
+          <p class="spatial-intro reveal">Premium machine learning and data science repositories engineered for real-world impact.</p>
+          <div class="spatial-cta-row reveal">
+            <a class="btn primary" href="https://github.com/Winnie758" target="_blank" rel="noopener">View GitHub Profile</a>
+          </div>
+          <div class="github-grid reveal">
+            <a class="spatial-card repo-link-card" href="https://github.com/Winnie758/Advanced-optimization" target="_blank" rel="noopener">
+              <h3>Advanced Optimization</h3>
+              <p class="repo-desc">Delivers mathematically rigorous optimization pipelines that turn complex constraints into high-performance decisions.</p>
+              <p class="repo-stack"><span><i class="fa-brands fa-python"></i> Python</span><span><i class="fa-solid fa-hexagon-nodes"></i> Optimization</span><span><i class="fa-solid fa-gears"></i> Modeling</span></p>
+            </a>
+            <a class="spatial-card repo-link-card" href="https://github.com/Winnie758/Machine-learning" target="_blank" rel="noopener">
+              <h3>Predictive Machine Learning Workflows</h3>
+              <p class="repo-desc">Builds accurate prediction systems from feature engineering through validation, enabling trusted data-driven outcomes.</p>
+              <p class="repo-stack"><span><i class="fa-brands fa-python"></i> Python</span><span><i class="fa-solid fa-brain"></i> Machine Learning</span><span><i class="fa-solid fa-chart-line"></i> Scikit-learn</span></p>
+            </a>
+            <a class="spatial-card repo-link-card" href="https://github.com/Winnie758/Genetic-Algorithms" target="_blank" rel="noopener">
+              <h3>Evolutionary Computation & Genetic Algorithms</h3>
+              <p class="repo-desc">Applies evolutionary search strategies to solve non-linear optimization problems where classical methods struggle.</p>
+              <p class="repo-stack"><span><i class="fa-brands fa-python"></i> Python</span><span><i class="fa-solid fa-dna"></i> Genetic Algorithms</span><span><i class="fa-solid fa-microscope"></i> Simulation</span></p>
+            </a>
+            <a class="spatial-card repo-link-card" href="https://github.com/Winnie758/Machine-learning-Forecasts" target="_blank" rel="noopener">
+              <h3>Machine Learning Forecasting Systems (Full-Stack)</h3>
+              <p class="repo-desc">Integrates forecasting models with interactive web interfaces to deliver end-to-end predictive intelligence for stakeholders.</p>
+              <p class="repo-stack"><span><i class="fa-brands fa-python"></i> Python</span><span><i class="fa-brands fa-js"></i> JavaScript</span><span><i class="fa-brands fa-html5"></i> HTML</span><span><i class="fa-solid fa-chart-column"></i> ML Dashboard</span></p>
+            </a>
+          </div>
+          <div class="active-contributor-bar reveal" aria-label="Active contributor summary">
+            <div class="ac-copy">
+              <h3>Active Contributor</h3>
+              <p>Building intelligent systems that advance machine learning, analytics and mathematical modeling</p>
+            </div>
+            <div class="ac-stats">
+              <article><h4>210+</h4><p>Commits</p></article>
+              <article><h4>12+</h4><p>Repositories</p></article>
+              <article><h4>30+</h4><p>Contributions</p></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="tag">Contact</p>
+            <h2>Get in touch</h2>
+          </div>
+          <div class="contact-grid reveal">
+            <form id="contact-form" class="contact-form" novalidate>
+              <label>Full Name<input type="text" name="name" required /></label>
+              <label>Email<input type="email" name="email" required /></label>
+              <label>Country<select name="country" id="country-select" required><option value="">Select a country...</option></select></label>
+              <label>State / County / Region<select name="region" id="region-select" disabled><option value="">Select country first...</option></select><small id="region-status" class="region-status">Select a country to load subdivisions.</small></label>
+              <label>Message<textarea name="message" rows="5" required></textarea></label>
+              <button type="submit" class="btn primary">Send Message</button>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
+            <article class="contact-card contact-icons">
+              <p class="contact-intro">I’m always open to new opportunities, collaborations, and interesting conversations. Feel free to reach out!</p>
+              <div class="contact-icons-grid">
+                <a class="contact-icon-card" href="https://github.com/Winnie758" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><span>GitHub</span></a>
+                <a class="contact-icon-card" href="mailto:mwethyamutisya.22@gmail.com" aria-label="Email" title="Email"><span>Email</span></a>
+                <a class="contact-icon-card" href="https://wa.me/254113190494?text=Hello%20Mwethya%2C%20I%20saw%20your%20website%E2%80%A6" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp"><span>WhatsApp</span></a>
+                <a class="contact-icon-card" href="https://www.linkedin.com/in/mwethya-mutisya-0bb7ba2b1/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><span>LinkedIn</span></a>
+                <a class="contact-icon-card" href="tel:+254113190494" aria-label="Call" title="Call"><span>Call</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div><h4>Mwethya Mutisya</h4><p>Data • ML • Web</p></div>
+        <div><h4>Quick Links</h4><a href="#home">Home</a><a href="#projects">Projects</a><a href="#academics">Academics</a><a href="#contact">Contact</a></div>
+        <div><h4>Connect</h4><a href="#contact">Get in touch</a><a href="https://github.com/Winnie758" target="_blank" rel="noopener">GitHub</a></div>
+        <div><h4>Contact</h4><p><i class="fa-solid fa-phone"></i> 0113190494</p><p><i class="fa-solid fa-location-dot"></i> Nairobi, Kenya</p></div>
+      </div>
+      <p class="copyright">© 2026 Mwethya Mutisya. All rights reserved.</p>
+      <p class="made-with">Made with ❤️ and inspiration</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.166.1/build/three.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
